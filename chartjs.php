@@ -3,16 +3,18 @@
   </script>
   <script type="text/javascript" src="js/third/jplayer/jquery.jplayer.min.js"></script>
   <!-- // <script type="text/javascript" src="js/angular/1.1.5/angular.min.js"></script> -->
-  <!-- // <script type="text/javascript" src="js/main.js"></script> -->
+  
 
     <link href="js/chart/styles.css" rel="stylesheet" />
-    <script src="js/chart/Lib/js/jquery-1.9.1.min.js"></script>
     <script src="js/chart/Lib/js/knockout-2.2.1.js"></script>
     <script src="js/chart/Lib/js/globalize.min.js"></script>
     <script src="js/chart/Lib/js/dx.chartjs.js"></script>
 
 
-  <script type="text/javascript" src="js/chart/Lib/js/dx.chartjs.js"></script>
+    <script type="text/javascript" src="js/chart/Lib/js/dx.chartjs.js"></script>
+
+    <script type="text/javascript" src="js/main2.js"></script>
+
   <script type="text/javascript">
       $(function ()  
         {
@@ -77,10 +79,9 @@
 
 </head>
 <body >
-    hi
     <div>
     	<div id="jpId"></div>
-  		<div id="omg">play</div>
+  		<button id="omg">play</button>
       <div id="chartContainer" style="width: 100%; "></div>
       <div id="chartContainer2" style="width: 100%; "></div>
     </div>
