@@ -4,7 +4,7 @@ $(document).ready(function() {
     ready: function () {
 
       $(this).jPlayer("setMedia", {
-        mp3: "audios/man.m4a"
+        m4a: 'http://www.jplayer.org/audio/m4a/TSP-01-Cro_magnon_man.m4a'
       })
       
       console.log('x');

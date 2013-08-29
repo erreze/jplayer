@@ -2,10 +2,10 @@ $(document).ready(function() {
   $("#jpId").jPlayer( {
     ready: function () {
       $(this).jPlayer("setMedia", {
-        mp3: "audios/man.m4a"
+        m4a: '/audios/man.m4a'
       })
-      console.log('xff');
-    }
+    },
+    supplied: "m4a",
   });
 
 
